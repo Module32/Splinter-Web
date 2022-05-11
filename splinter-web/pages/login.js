@@ -11,7 +11,7 @@ export default function Login() {
     <div className={styles.container}>
       <Layout>
         <>
-          {signIn('discord')}
+          <p>coming soon</p>
         </>
       </Layout>
       <Footer>
