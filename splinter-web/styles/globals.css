@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #ebfaff;
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin-left: 0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-blend-mode: exclusion;
+
+  background: #29d1ff;
+background: linear-gradient(67deg, rgb(71,250,239,0.4) 0%, rgb(93,221,255,0.6) 27%, rgb(44,193,255,0.6) 100%);
+  color: rgb(19, 20, 20);
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  align-items: flex-start;     
+  flex-wrap: nowrap;
+  width: 100%;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+  z-index: 1030;
+}
+
+ul {
+  margin-left: 0;
+  margin-top: 0;
+  z-index: 2;
+}
+
+a.navbar {
+  padding: 10px;
+  border-radius: 5px;
+  transition: 150ms;
+  margin: 0px 3px;
+}
+
+a.navbar:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+  box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+a.thick {
+  padding: 10px;
+  border-radius: 5px;
+  transition: 150ms;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: 0px 3px;
+}
+
+a.thick:hover {
+  background-color: rgb(255, 255, 255, 0.7);
+  box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+li {
+  order: 0;
+  position: relative;
+  display: inline;
+  width: auto;
+  font-weight: 600;
+}
+
+.all {
+  padding: 0 5rem;
+}
+
+.cursive {
+  font-family: 'Courgette', cursive;
+}
+
+a.footer {
+  color: grey;
+  font-weight: 500;
+  text-decoration: none;  
+}
+
+a.footer:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding: 30px;
+  background-color: #0c0d12;
+}
+
+.totheleft {
+  padding-right: 45px;
+}
+
+.grey {
+  color: rgb(146, 146, 146);
+  font-weight: 600;
+}
+
+a.social {
+  padding: 5px;
+  background: rgb(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 4px;
+  transition: 150ms;
+}
+
+a.social:hover {
+  background: rgb(255, 255, 255, 0.4);
+}
+
+.tag {
+  padding: 5px;
+  background: rgb(41, 209, 255);
+  color: white;
+  border-radius: 4px;
+  transition: 150ms;
+}
+
+.tag:hover {
+  background: rgb(35, 178, 217);
+}
+
+hr {
+  height: 2px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(224, 224, 224, 0.4);
+}
+
+.card {
+  padding: 10px;
+  borderRadius: 7px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.4);
+}
+
+.mainpic {
+  background-image: url("/imgs/splinter_dashboard.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.infocard {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 30px;
+  margin: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.infocard > * {
+  padding-left: 30px;
+}
+
+.infocard img {
+  transition: 150ms;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.infocard img:hover {
+  filter: brightness(125%);
+}
+
+.hometop {
+  text-align: center;
+  padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .hometop {
+    padding: 5px;
+  }
+}
+
+.background {
+  background-repeat: no-repeat;
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  text-align: left;
+}
+
+.background.banner {
+  background-image: url("/imgs/home/banner.png");
+}
