@@ -11,8 +11,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: rgb(33, 166, 255);
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 * {
@@ -105,7 +109,7 @@ footer {
 }
 
 .grey {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgb(146, 146, 146);
   font-weight: 600;
 }
 

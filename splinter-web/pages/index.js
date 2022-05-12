@@ -20,7 +20,7 @@ export default function Home() {
             <h2 style={{fontWeight: '600'}}>Splinter is a highly capable multipurpose bot with a huge list of features, so you only need one bot for all your servers!<br /><br /><a href="https://discord.com/oauth2/authorize?client_id=920207039043625030&scope=bot%20applications.commands" className="thick">Invite Now</a></h2>
           </div>
           <div style={{textAlign: 'center', paddingTop: '50px'}}>
-            <h1><span style={{color: "#ffab19"}}><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span> Rated <a href="https://top.gg/bot/920207039043625030">5/5 on Top.gg</a></h1>
+            <h1><span style={{color: "#ffab19"}}><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span> Rated 5/5 on <a href="https://top.gg/bot/920207039043625030">Top.gg</a></h1>
           <h2 className="grey">Learn more about some of the features that our users love!</h2>
             <div style={{display: 'flex', justifyContent: 'center'}}>
               <div className="card">
@@ -75,9 +75,10 @@ export default function Home() {
                   width="100"
                   height="100"
                 />
-                <h1 style={{color: '#29d1ff', fontWeight: '800', fontSize: '45px'}}><span className="grey">|</span>  Premium</h1>
+                <h1 style={{color: '#29d1ff', fontWeight: '800', fontSize: '45px'}}>Premium</h1>
               </div>
-              <h2 style={{marginTop: '-30px', padding: '0', backgroundColor: 'white', padding: '5px', borderRadius: '5px'}}>Take your server to the next level with Splinter Premium. Get access to ticketing, levelling, and more premium perks for a low monthly price.</h2>
+              <h3 style={{marginTop: '-30px', padding: '0', backgroundColor: 'white', padding: '5px', borderRadius: '5px'}}>Take your server to the next level with Splinter Premium. Get access to ticketing, levelling, and more premium perks for a low monthly price.</h3>
+              <h2><a href="https://www.patreon.com/SplinterBot" className="thick">Yessir</a></h2>
               
           </div>
             
