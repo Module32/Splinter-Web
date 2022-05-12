@@ -47,7 +47,7 @@ export default function Home() {
                 width="1028"
                 height="762"
                 />
-              <h1><p style={{fontSize: '14px', margin: '0', padding: '0'}} className="grey">G I V E A W A Y S</p><br /><span style={{padding: '5px', borderRadius: '5px', backgroundColor: '#29d1ff', color: 'white'}}>🥳 Extensive Giveaway System</span><br /><p style={{fontSize: '21px', fontWeight: '600'}}>Splinter&apos;s giveaway module is by far the most capable one on Discord. With various features such as rerolling, adding bonus entires, message requirements, and more!</p></h1>
+              <h1><p style={{fontSize: '14px', margin: '0', padding: '0'}} className="grey">G I V E A W A Y S</p><br /><span style={{padding: '5px', borderRadius: '5px', backgroundColor: '#29d1ff', color: 'white'}}>🥳 Extensive Giveaway System</span><br /><p style={{fontSize: '21px', fontWeight: '600'}}>Splinter&apos;s giveaway module is by far the most capable one on Discord, with various features such as rerolling, adding bonus entires, message requirements, and more!</p></h1>
             </div>
             
             <div className="infocard">
