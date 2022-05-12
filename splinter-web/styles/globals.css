@@ -105,7 +105,7 @@ footer {
 }
 
 .grey {
-  color: rgb(146, 146, 146);
+  color: rgb(0, 0, 0, 0.3);
   font-weight: 600;
 }
 
@@ -142,8 +142,19 @@ hr {
 
 .card {
   padding: 10px;
-  borderRadius: 7px;
-  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.4);
+  border-radius: 7px;
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.15),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  transition: 150ms;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 
+    16px 16px 20px 0 rgba(0, 0, 0, 0.15),
+    -4px -4px 8px 0 rgba(255, 255, 255, 0.5);
 }
 
 .mainpic {
