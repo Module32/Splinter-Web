@@ -65,7 +65,7 @@ export default function Home() {
                 width="590"
                 height="778"
                 />
-              <h1><p style={{fontSize: '14px', margin: '0', padding: '0'}} className="grey">F U N</p><br /><span style={{padding: '5px', borderRadius: '5px', backgroundColor: '#29d1ff', color: 'white'}}>😜 All Things Fun!</span><br /><p style={{fontSize: '21px', fontWeight: '600'}}>Looking to bring some fun into your server! Splinter has you covered with all sorts of interesting and cool commands to boost user activity and satisfaction!</p></h1>
+              <h1><p style={{fontSize: '14px', margin: '0', padding: '0'}} className="grey">F U N</p><br /><span style={{padding: '5px', borderRadius: '5px', backgroundColor: '#29d1ff', color: 'white'}}>😜 All Things Fun!</span><br /><p style={{fontSize: '21px', fontWeight: '600'}}>Looking to bring some fun into your server? Splinter has you covered with all sorts of interesting and cool commands to boost user activity and satisfaction!</p></h1>
             </div>
 
             <div style={{textAlign: 'center', padding: '40px 10px', boxShadow: '0px 0px 10px rgb(0, 0, 0, 0.15)', borderRadius: '10px', backgroundImage: "url('/imgs/premium-branding.png')", backgroundSize: '50%', border: '2px solid rgb(0, 0, 0, 0.3)'}}>
@@ -77,7 +77,7 @@ export default function Home() {
                 />
                 <h1 style={{color: '#29d1ff', fontWeight: '800', fontSize: '45px'}}>Premium</h1>
               </div>
-              <h3 style={{marginTop: '-30px', padding: '0', backgroundColor: 'white', padding: '5px', borderRadius: '5px'}}>Take your server to the next level with Splinter Premium. Get access to ticketing, levelling, and more premium perks for a low monthly price.</h3>
+              <h3 style={{marginTop: '-30px', padding: '0', backgroundColor: 'white', padding: '5px', borderRadius: '5px'}}>Take your server to the next level with Splinter Premium. Get access to ticketing, levelling, unlimited giveaway bonus entries, and more premium perks for a low monthly price.</h3>
               <h2><a href="https://www.patreon.com/SplinterBot" className="thick">Yessir</a></h2>
               
           </div>

@@ -22,12 +22,8 @@ export default function Layout({ children, home }) {
                 <li><Link href="https://discord.com/oauth2/authorize?client_id=920207039043625030&scope=bot%20applications.commands">
                   <a className="navbar">Invite</a>
                 </Link></li>
-    
-                <li><Link href="/whyot">
-                  <a className="navbar">Why Splinter</a>
-                </Link></li>
                 
-                <li><Link href="/">
+                <li><Link href="/testimonials">
                   <a className="navbar">Testimonials</a>
                 </Link></li>
     
@@ -35,7 +31,11 @@ export default function Layout({ children, home }) {
                   <a className="navbar">Support Server</a>
                 </Link></li>
 
-                <li><Link href="/">
+                <li><Link href="/testimonials">
+                  <a className="navbar">FAQ</a>
+                </Link></li>
+
+                <li><Link href="/team">
                   <a className="navbar">Team</a>
                 </Link></li>
 
