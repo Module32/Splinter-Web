@@ -23,15 +23,15 @@ export default function Layout({ children, home }) {
                   <a className="navbar">Invite</a>
                 </Link></li>
                 
-                <li><Link href="/testimonials">
-                  <a className="navbar">Testimonials</a>
+                <li><Link href="/reviews">
+                  <a className="navbar">Reviews</a>
                 </Link></li>
     
-                <li><Link href="/">
+                <li><Link href="https://discord.gg/rPH2Tv2C">
                   <a className="navbar">Support Server</a>
                 </Link></li>
 
-                <li><Link href="/testimonials">
+                <li><Link href="/faq">
                   <a className="navbar">FAQ</a>
                 </Link></li>
 

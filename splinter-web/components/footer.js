@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
           <div style={{marginLeft: 'auto', display: 'flex'}}>
             <div className="totheleft" style={{flexDirection: 'row'}}>
               <h3>Pages</h3>
-              <h4 style={{marginTop: '-10px'}}><a href="/" className="footer">Home</a><br /><a href="/team" className="footer">Testimonials</a><br /><a href="/partners" className="footer">Team</a><br /><a href="/partners" className="footer">FAQ</a></h4>
+              <h4 style={{marginTop: '-10px'}}><a href="/" className="footer">Home</a><br /><a href="/reviews" className="footer">Reviews</a><br /><a href="/team" className="footer">Team</a><br /><a href="/faq" className="footer">FAQ</a></h4>
             </div>
             <div className="totheleft" style={{flexDirection: 'row'}}>
               <h3>Bot</h3>
