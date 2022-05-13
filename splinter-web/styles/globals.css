@@ -149,10 +149,13 @@ hr {
 .card {
   padding: 10px;
   border-radius: 7px;
+  display: flex;
+  flex-direction: column;
   box-shadow: 
     12px 12px 16px 0 rgba(0, 0, 0, 0.15),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.5);
   margin: 10px;
+  justify-content: center;
   transition: 150ms;
 }
 
