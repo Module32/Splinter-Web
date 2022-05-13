@@ -222,26 +222,17 @@ hr {
   background-image: url("/imgs/home/banner.png");
 }
 
-@media screen and (min-width : 768px){
-  .card2 {
+.card2 {
     border-radius: 15px; background-size: cover; color: black; text-align: left;
     padding: 25px;
     margin: 5px;
-    width: 30%;
+    width: 20%;
     flex-direction: row;
     overflow-wrap: break-word;
     word-wrap: break-word;
-  }
+  transition: 150ms;
 }
 
-@media screen and (min-width : 0px) and (max-width : 768px){
-  .card2 {
-    border-radius: 15px; background-size: cover; color: black; text-align: left;
-    padding: 25px;
-    margin: 5px;
-    width: 100%;
-    flex-direction: column;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-  }
+.card2:hover {
+    width: 30%;
 }

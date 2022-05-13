@@ -24,6 +24,15 @@ export default function Login() {
             <h1 style={{paddingTop: '100px'}}>Callum Knott</h1>
             <p style={{marginTop: '-10px'}}>Founder and Creator of Splinter. Developer and database manager.</p>
           </div>
+
+          <div style={{backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)), url("/imgs/pfps/hurb.png")'}} className="card2">
+            <div style={{display: 'flex'}}>
+              <a href="" className="cardlink" style={{marginLeft: '-5px'}}><i className="fab fa-discord" /></a>
+            </div>
+            <h1 style={{paddingTop: '100px'}}>Hurbismegacringe</h1>
+            <p style={{marginTop: '-10px'}}>Graphics designer for Splinter</p>
+          </div>
+          
           <div style={{backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)), url("/imgs/pfps/module64.jpg")'}} className="card2">
             <div style={{display: 'flex'}}>
               <a href="https://discordhub.com/profile/804777320123990108" className="cardlink" style={{marginLeft: '-5px'}}><i className="fab fa-discord" /></a>
